@@ -1,7 +1,20 @@
 ---
-title: "Soccer"
+execute:
+  echo: false
+  message: false
+  warning: false
 ---
 
-This is a Quarto website.
+```{r}
+library(soccerAnimate)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+home_team_file <- "https://raw.githubusercontent.com/metrica-sports/sample-data/master/data/Sample_Game_2/Sample_Game_2_RawTrackingData_Home_Team.csv"
+away_team_file <- "https://raw.githubusercontent.com/metrica-sports/sample-data/master/data/Sample_Game_2/Sample_Game_2_RawTrackingData_Away_Team.csv"
+# td <- get_tidy_data(home_team_file, away_team_file)
+```
+
+```{r}
+# soccer_animate(td, 480, 490, "base", export_gif = T)
+```
+
+![](animation.gif)
