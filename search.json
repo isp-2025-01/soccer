@@ -5,5 +5,12 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "convex.html",
+    "href": "convex.html",
+    "title": "Soccer",
+    "section": "",
+    "text": "Convex Hulls in Soccer Analytics\nThis image appears to be a tactical analysis visualization from a soccer match, using convex hulls to analyze player positioning and space occupation. A convex hull is essentially the smallest convex polygon that can contain a set of points - imagine stretching a rubber band around a set of points, and the shape it forms is the convex hull.\nIn this specific visualization, there are two distinct convex hulls shown - one in purple and one in light blue. The purple hull appears to be showing the shape and space occupied by a group of players (marked with pink/purple numbers) on one team, likely during a particular phase of play. The light blue hull shows another relevant grouping of players (marked with white/gray numbers).\nThe visualization is overlaid on a standard soccer field diagram, and appears to be focused on one half of the field, suggesting this might be analyzing an attacking or defensive sequence. The numbered dots represent player positions at a specific moment, and the arrows indicate player movement or passing directions.\nThis type of analysis is valuable in modern soccer analytics because it helps coaches and analysts understand:\n\nHow teams maintain their shape and structure\nThe effective space occupation by different units within the team\nTactical spacing between players\nHow teams press or defend as a unit"
   }
 ]
