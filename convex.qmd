@@ -1,0 +1,36 @@
+---
+execute:
+  echo: false
+  message: false
+  warning: false
+---
+
+```{r}
+library(soccerAnimate)
+
+home_team_file <- "https://raw.githubusercontent.com/metrica-sports/sample-data/master/data/Sample_Game_2/Sample_Game_2_RawTrackingData_Home_Team.csv"
+away_team_file <- "https://raw.githubusercontent.com/metrica-sports/sample-data/master/data/Sample_Game_2/Sample_Game_2_RawTrackingData_Away_Team.csv"
+# td <- get_tidy_data(home_team_file, away_team_file)
+```
+
+```{r}
+# Example B "convexhull"
+# soccer_animate(td, 480, 490, "convexhull", export_gif = T, gif_name = "convexhull")
+```
+
+![](convexhull.gif)
+
+### Convex Hulls in Soccer Analytics
+
+This image appears to be a tactical analysis visualization from a soccer match, using convex hulls to analyze player positioning and space occupation. A convex hull is essentially the smallest convex polygon that can contain a set of points - imagine stretching a rubber band around a set of points, and the shape it forms is the convex hull.
+
+In this specific visualization, there are two distinct convex hulls shown - one in purple and one in light blue. The purple hull appears to be showing the shape and space occupied by a group of players (marked with pink/purple numbers) on one team, likely during a particular phase of play. The light blue hull shows another relevant grouping of players (marked with white/gray numbers).
+
+The visualization is overlaid on a standard soccer field diagram, and appears to be focused on one half of the field, suggesting this might be analyzing an attacking or defensive sequence. The numbered dots represent player positions at a specific moment, and the arrows indicate player movement or passing directions.
+
+This type of analysis is valuable in modern soccer analytics because it helps coaches and analysts understand:
+
+- How teams maintain their shape and structure
+- The effective space occupation by different units within the team
+- Tactical spacing between players
+- How teams press or defend as a unit
